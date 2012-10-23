@@ -41,4 +41,5 @@ class custom_ol_Object extends core_ol_Object {
 
 Die index.php bleibt unberühert. Trotzdem wird beim erneuten ausführen die Ausgabe "custom usage description" herausschreiben.
 
+
 ?>
