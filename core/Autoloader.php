@@ -80,9 +80,6 @@ class Autoloader
             if(!empty($arrClassPathInfos['classpath']) &&
             file_exists($arrClassPathInfos['classpath'])
             ) {
-                if($this->bolDevelopmentMode) {
-                    stable_ol_Development::isValidFile($arrClassPathInfos['classpath']);
-                }
                 $arrReturn = $arrClassPathInfos;
                 break;
             }
